@@ -33,4 +33,4 @@ python qkd_visual.py
 
 * **Superposition**: Alice encodes bits ($0$ or $1$) in Z bases ($|0\rangle, |1\rangle$) or X bases ($|+\rangle, |-\rangle$).
 * **Measurement Collapse**: Qubits exist in superposition until measured, which immediately collapses them into classical states.
-* **Eavesdrop Detection**: Eve cannot clone quantum states (No-Cloning Theorem). If Eve measures the qubit, she collapses it. Even if Alice and Bob's bases match later, Eve's interference introduces a **25% error rate (QBER)**, immediately exposing her presence and causing Alice and Bob to discard the key!
+* **Eavesdrop Detection**: Eve can't clone quantum states (No-Cloning Theorem). If Eve measures the qubit, she collapses it. Even if Alice and Bob's bases match later, Eve's interference introduces a **25% error rate (QBER)**, immediately exposing her presence and causing Alice and Bob to discard the key !
